@@ -1,0 +1,185 @@
+{% extends "nav_footer.html" %}
+{% load static %}
+
+{% block title %}Recuerdos{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/recuerdos.css' %}">
+{% endblock %}
+
+
+{% block content %}
+    <br>
+    <div class="container">
+        <!--
+        <div class="card">
+            <div class="card-body">
+                <div class="row m-2">
+                    <div class="col-md">
+                        <p class="sora" style="font-size:21px;">Gestion de Recuerdos</p>
+                    </div>
+                    <div class="col-md text-end">
+                        <button class="btn btn-primary sora" style="font-size: 17px;">Crear Recuerdo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="row">
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo1.jpeg'%}" class="img-fluid card-img rounded-3" alt="1">
+                        <p class="lora p-1 m-1" style="font-size:21px;">Comiendo en una plaza :D</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">Fue un dia en que comimos fajitas cerca de la plaza de maipu, fue de las primeras veces que nos veiamos...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo2.jpeg'%}" class="img-fluid card-img rounded-3" alt="2">
+                        <p class="lora p-1 m-1" style="font-size:21px;">Estabamos escuchando musica :3</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">Uno de los primeros dias que fuiste a mi casa no sabria decirte si fue la primera vez o la segunda con exactitud...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo3.jpeg'%}" class="img-fluid card-img rounded-3" alt="3">
+                        <p class="lora p-1 m-1" style="font-size:21px;">Poco antes de la tragedia...</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">Creo que decir tragedia sería decir mucho, pero creo que fue una de las veces que veo una pulsera que, cuando me la quedé, a pesar de todo, me quedó un tanto pequeña.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo4.jpeg'%}" class="img-fluid card-img rounded-3" alt="4">
+                        <p class="lora p-1 m-1" style="font-size:21px;">jejeje...</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">Dias en que veniamos a conversar en la casa amor para escapar un poco del calor que hace afuera aunque la verdad, en la casa tambien hacia calor :C.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo5.jpeg'%}" class="img-fluid card-img rounded-3" alt="5">
+                        <p class="lora p-1 m-1" style="font-size:21px;">Este es viejo...</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">Creo recordar algunas cosas muy puntuales. La verdad es que esta imagen es de una época en la que solo nos hablábamos, nada de salir, incluso creo que no nos habías visto en persona.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo6.jpeg'%}" class="img-fluid card-img rounded-3" alt="6">
+                        <p class="lora p-1 m-1" style="font-size:21px;">Dia de mi cumpleaños :D</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">Ese dia conociste a basicamente lo que es toda mi familia y aunque mi familia no es muy festiva x asi decirlo, las hamburguesas estaban buenas :D, creo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo7.jpeg'%}" class="img-fluid card-img rounded-3" alt="7">
+                        <p class="lora p-1 m-1" style="font-size:21px;">Feria Navideña</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">No estoy seguro que tan cerca estariamos de navidad en ese entonces pero me acuerdo que recorrimos gran parte de la feria navideña de 3poniente. al final no compramos nada pero terminamos jugando en uno de los puestos de la feria.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo8.jpg'%}" class="img-fluid card-img rounded-3" alt="8">
+                        <p class="lora p-1 m-1" style="font-size:21px;">Tu con mi ropa ? :o </p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">Sabes en su momento no sabia como decirte que encontraba que asi te veias hermosa, no es que ahora no te veas asi por que siempre te ves linda mor </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo9.jpeg'%}" class="img-fluid card-img rounded-3" alt="9">
+                        <p class="lora p-1 m-1" style="font-size:21px;">La familia feliz :D</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">Un dia en que veniamos de la casa de tu hermana, veniamos los dos juntos y el thorsito, jsjsjs tengo ganas de que estemos los 3 juntos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <div class="card" style="background-color: #E3ACF2;">
+                    <div class="card-header m-3 shadow">
+                        <img src="{% static 'img/recuerdo10.jpg'%}" class="img-fluid card-img rounded-3" alt="10">
+                        <p class="lora p-1 m-1" style="font-size:21px;">Como me gustaria estar asi ahora.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-body r-3" style="background-color: whitesmoke;">
+                            <p class="sora paddingInadorRecuerdos text-center" style="font-size: 19px;">Abrazados tu a la altura de mi pecho, la primera vez que dormimos juntos y pues fue algo lindo mor, como me gustaria estar asi denuevo :D.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<!--
+<script src="{% static 'js/apirecuerdos.js' %}"></script>
+-->
+{% endblock %}

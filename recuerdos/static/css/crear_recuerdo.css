@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+}
+
+.titleText{
+    font-size: 30px;
+}
+.paddingTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
